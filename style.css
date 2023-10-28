@@ -1,0 +1,29 @@
+h1{
+    color: brown;
+}
+
+p{
+    color: black;
+}
+button{
+    color: blue;
+    background-color: burlywood;
+}
+body{
+    background-color: cadetblue;
+}
+.x{
+    color: burlywood;
+}
+.y{
+    color: red;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(14, 232, 112);
+    }
+    p{
+        display: none;
+    }
+}
